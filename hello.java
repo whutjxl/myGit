@@ -9,6 +9,7 @@ public class hello{
         sayDev();
         System.out.println("-------------------------------------");
         MASTER();
+        DEV();
     }
     public static void sayHello(String s,int n){
         for(int i=0;i<n;++i){
@@ -34,6 +35,11 @@ public class hello{
     public static void MASTER(){
         for(int i=0;i<3;++i){
             System.out.println("MASTER!!!!!");
+        }
+    }
+    public static void DEV(){
+        for(int i=0;i<3;++i){
+            System.out.println("DEV!!!!!!!");
         }
     } 
 }
