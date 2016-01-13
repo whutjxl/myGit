@@ -8,7 +8,6 @@ public class hello{
         System.out.println("-------------------------------------");
         sayDev();
         System.out.println("-------------------------------------");
-        MASTER();
         DEV();
     }
     public static void sayHello(String s,int n){
@@ -32,14 +31,11 @@ public class hello{
             System.out.println("sayDev!");
         }
     }
-    public static void MASTER(){
-        for(int i=0;i<3;++i){
-            System.out.println("MASTER!!!!!");
-        }
-    }
+    
     public static void DEV(){
         for(int i=0;i<3;++i){
             System.out.println("DEV AND MASTER!!!!!!!!!!!!");
+            System.out.println("I AM DEV AND MASTER!!!!!!");
         }
     } 
 }
