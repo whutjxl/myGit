@@ -32,14 +32,10 @@ public class hello{
             System.out.println("sayDev!");
         }
     }
-    public static void MASTER(){
-        for(int i=0;i<3;++i){
-            System.out.println("MASTER!!!!!");
-        }
-    }
+    
     public static void DEV(){
         for(int i=0;i<3;++i){
-            System.out.println("DEV!!!!!!!");
+            System.out.println("I AM DEV AND MASTER!!!!!!");
         }
     } 
 }
