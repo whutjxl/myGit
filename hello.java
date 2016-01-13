@@ -5,6 +5,8 @@ public class hello{
         sayChineseHello("你好！",6);
         System.out.println("-------------------------------------");
         say();
+        System.out.println("-------------------------------------");
+        sayDev();
     }
     public static void sayHello(String s,int n){
         for(int i=0;i<n;++i){
@@ -22,4 +24,10 @@ public class hello{
             System.out.println("say!");
         }
     }
+    public static void sayDev(){
+        for(int i=0;i<5;++i){
+            System.out.println("sayDev!");
+        }
+    }
+    
 }
