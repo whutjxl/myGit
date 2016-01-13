@@ -7,6 +7,8 @@ public class hello{
         say();
         System.out.println("-------------------------------------");
         sayDev();
+        System.out.println("-------------------------------------");
+        DEV();
     }
     public static void sayHello(String s,int n){
         for(int i=0;i<n;++i){
@@ -29,5 +31,9 @@ public class hello{
             System.out.println("sayDev!");
         }
     }
-    
+    public static void DEV(){
+        for(int i=0;i<3;++i){
+            System.out.println("DEV!!!!!!!");
+        }
+    } 
 }
