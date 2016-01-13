@@ -8,7 +8,6 @@ public class hello{
         System.out.println("-------------------------------------");
         sayDev();
         System.out.println("-------------------------------------");
-        MASTER();
         DEV();
     }
     public static void sayHello(String s,int n){
